@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteZ - Best Online Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="input-wrapper">
+            <div id="note-input" class="s-ninput">
+                <h2 class="p1">Add your Note</h2>
+
+                <form id="m-form" class="style-form p-1">
+                    
+                    <label for="textarea">Enter Heading</label>
+                    <textarea name="" id="h-input" class="p1" required placeholder="Enter Heading"></textarea>
+                    <label for="textarea">Enter Your Note</label>
+                    <textarea name="" id="g-minput" cols="30" rows="10" class="p1 t-1" requireds placeholder="Enter Note"></textarea>
+                    <input type="submit" class="btn m1" id="g-btn" value="Add Note">
+
+                </form>
+            </div>
+    </div>
+
+        <h1 class="your-notes fade-in">Your Notes</h1>
+        <main id="notes" class="s-notes">
+        </main>
+        
+
+        <div id="add-new-note">
+            <button class="btn-abs" title="Add New Note">+</button>
+        </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
