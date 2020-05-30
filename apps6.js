@@ -16,7 +16,7 @@ class UI {
                   noteDiv.innerHTML = `
                   <div class="tt">
                   <div class="tt1">
-                      <img src="https://img.icons8.com/pastel-glyph/64/000000/time.png"/>
+                      <img src="./img/time.png" />
                   </div>
                   <div class="tt2">
                       <span class="date">${note.date}</span>
