@@ -155,6 +155,7 @@ main{
     font-family: 'Caveat', Arial, Helvetica, sans-serif;
     padding-bottom: 1rem;
     max-width: 65%;
+    word-wrap: break-word;
 }
 
 .d-btn{
