@@ -90,6 +90,8 @@ textarea#g-minput{
     font-weight: bold;
     border:none;
     width: 250px;
+    cursor: pointer;
+
 }
 
 main{
@@ -166,6 +168,8 @@ main{
     border:none;
     margin-top: auto;
     width: 120px;
+    cursor: pointer;
+
 }
 
 .scale-down{
@@ -175,31 +179,6 @@ main{
 
 }
 
-.btn-abs{
-    width: 60px;
-    height: 60px;
-    background-color: white;
-    color: var(--p-color);
-    font-size: 2.5rem;
-    border: none;
-    border-radius: 100%;
-    right: 5%;
-    bottom: 5%;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    text-align: center;
-    display: none;
-    transition: all 0.5s ease;
-    position: fixed;
-}
-
-.btn-abs:hover{
-    background-color: var(--s-color);
-    color: var(--p-color);
-    transition: all 0.3s ease;
-}
 .input-wrapper{
     overflow: hidden;
 }

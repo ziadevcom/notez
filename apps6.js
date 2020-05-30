@@ -99,9 +99,17 @@ class UI {
             localStorage.setItem('notes', JSON.stringify(notes));
         }
 
-        // static removeNote(){
+        static removeNote(target){
+            const notes = Store.getNotes();
+            console.log(target);
+            notes.forEach(function(note, index){
+                if(note.title == target){
+                    notes.splice(index, 1)
+                }
+            })
 
-        // }
+            localStorage.setItem('notes', JSON.stringify(notes));
+        }
 
     }
 
@@ -112,7 +120,7 @@ class UI {
     // Listen for Submit Event
     document.getElementById('m-form').addEventListener('submit', function(e){
         
-    const noteTitle = document.getElementById('h-input').value,
+    const noteTitle = document.getElementById('h-input').value + "...",
           notePara = document.getElementById('g-minput').value;
 
         //   Date and time
@@ -166,6 +174,8 @@ class UI {
         // Delete Note
         ui.deleteNote(e.target);
 
+        // Remove from LS
+        Store.removeNote(e.target.previousElementSibling.previousElementSibling.innerText)
 
     })
 
