@@ -228,13 +228,15 @@ main{
 
 @media (max-width: 720px){
     .note{
-        width: 80%;
-        margin: 0.5rem auto;
+        width: 100%;
+        margin: 0.5rem 1rem;
     }
     .input-wrapper{
         margin: 1rem;
     }
     .your-notes{margin: 2rem 0.5rem 1rem 2rem;}
+    .tt{font-size: 12px;}
+    .tt1 img{max-width: 30px;}
 }
 @media (min-width: 721px) and (max-width: 1024px){
     .input-wrapper{
@@ -244,7 +246,7 @@ main{
         margin: 2rem;
     }
     .your-notes{text-align: center;}
-    .note{width: 25%;}
+    .note{width: 40%;}
 }
 
 .alert{
