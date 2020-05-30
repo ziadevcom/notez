@@ -150,7 +150,7 @@ class UI {
         ui.clearFields(noteTitle, notePara);
 
         // Show success
-        ui.showAlert('Book Added!', 'success');
+        ui.showAlert('Note Added!', 'success');
 
         
   
