@@ -154,6 +154,7 @@ main{
 .note h1{
     font-family: 'Caveat', Arial, Helvetica, sans-serif;
     padding-bottom: 1rem;
+    max-width: 65%;
 }
 
 .d-btn{
